@@ -12,6 +12,7 @@
 		FD291B91217427FD00F42D42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD291B8F217427FD00F42D42 /* Main.storyboard */; };
 		FD291B932174280600F42D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD291B922174280600F42D42 /* Assets.xcassets */; };
 		FD291B962174280600F42D42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD291B942174280600F42D42 /* LaunchScreen.storyboard */; };
+		FD291BA0217428A800F42D42 /* AirQualityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD291B9F217428A800F42D42 /* AirQualityData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FD291B922174280600F42D42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD291B952174280600F42D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD291B972174280600F42D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD291B9F217428A800F42D42 /* AirQualityData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				FD291B922174280600F42D42 /* Assets.xcassets */,
 				FD291B942174280600F42D42 /* LaunchScreen.storyboard */,
 				FD291B972174280600F42D42 /* Info.plist */,
+				FD291B9F217428A800F42D42 /* AirQualityData.swift */,
 			);
 			path = "Busan AirQuality Parsing data class timer";
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD291B8E217427FD00F42D42 /* ViewController.swift in Sources */,
+				FD291BA0217428A800F42D42 /* AirQualityData.swift in Sources */,
 				FD291B8C217427FD00F42D42 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
